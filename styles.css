@@ -1,0 +1,51 @@
+#app {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#exampleModal {
+    color:black;
+}
+
+#exampleModal2 {
+    color:black;
+}
+
+.form-data{
+    display: none;
+}
+
+.card {
+    background-image: linear-gradient( rgba(22, 22, 22, 0.937), rgb(3, 68, 106));
+    color: white; 
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  .card-img-top {
+    position:relative; 
+    height: 150px; 
+    width: 150px; 
+    object-fit: cover; 
+    border-radius: 50%;
+    border: 4px solid white; 
+  }
+
+  
+  .card-img-top:hover {
+    opacity: 0.8; 
+   
+  }
+
+  body {
+    color: white; 
+    background-color: rgba(61, 61, 61, 0.937);
+  }
